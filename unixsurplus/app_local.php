@@ -168,7 +168,8 @@
 
         $('#fetch').click( function() {
             var id = $('#data_list').val();
-            if(id != ''){
+
+            if(id != null){
                 $.ajax({
                     url: "data.php",
                     method: "POST",
@@ -190,6 +191,7 @@
                 alert('Please Select a chasis');
                 $('#details').css("display", "none");
             }
+
         })
     });
     
