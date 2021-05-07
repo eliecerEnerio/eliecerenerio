@@ -66,7 +66,7 @@
                             ?>
                         </select> -->
 
-                        <select name="data_list" id="data_list" class="form-control form-control-lg">
+                        <select name="data_list" id="data_list" class="form-control">
                         </select>
                         
                 </div>
